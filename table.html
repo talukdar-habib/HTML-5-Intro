@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        table{
+            width: 60%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        tfoot{
+            text-align: center;
+        }
+        caption{
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Creating HTML Table</h2>
+    
+        <table>
+        <caption>Employee Salary Sheet</caption>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Full name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Founder Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zuckeberg</td>
+                <td>Founder Facebok</td>
+                <td>$1300</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Employee: 4</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
