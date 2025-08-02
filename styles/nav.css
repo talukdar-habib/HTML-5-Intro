@@ -10,7 +10,21 @@ nav li:hover{
     background-color: bisque;
 }
 
-nav a{
+nav li a{
     text-decoration: none;
     color: black;
+}
+
+/* nested menu styles */
+
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: rgb(189, 206, 206);
+    padding-left: 20px;
+}
+
+
+nav li:hover > .dropdown{
+    display: block;
 }
