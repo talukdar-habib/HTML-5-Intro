@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 10px;
+    text-align: center;
+}
+p{
+    font-weight: bold;
+}
+form{
+        width: 600px;
+        border: 1px solid black;
+        margin: 20px auto;
+        padding: 10px;
+        background-color: beige;
+}
+.bird{
+        display: block;
+        width: 200px;
+        margin: 20px auto;
+}
+
+.btn{
+    padding: 5px;
+    background-color: rgb(201, 158, 176);
+    border: none;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(49, 47, 44);
+}
