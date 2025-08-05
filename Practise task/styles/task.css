@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+/* Task 1 */
 h2{
     margin: 10px;
     text-align: center;
@@ -26,8 +27,41 @@ form{
     padding: 5px;
     background-color: rgb(201, 158, 176);
     border: none;
+   border-radius: 5px;
 }
 .btn:hover{
     color: white;
     background-color: rgb(49, 47, 44);
+}
+
+/* Task 2 */
+
+/* .form-2{
+    margin: 30px auto;
+    background-color: rgb(92, 92, 79);
+    border: 5px solid rebeccapurple;
+}
+
+.share{
+    text-align: center;
+    display: block;
+}
+.text{
+    border: 5px solid black;
+    margin: 0 auto;
+    display: block;
+} */
+
+.main-class{
+    /* margin: 0 auto; */
+    /* display: block; */
+    text-align: center;
+}
+.text{
+    background-color: rgb(223, 194, 157);
+}
+select{
+    background-color: rgb(158, 179, 172);
+    color: rgb(97, 19, 49);
+    border-radius: 5px;
 }
