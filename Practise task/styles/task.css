@@ -65,3 +65,24 @@ select{
     color: rgb(97, 19, 49);
     border-radius: 5px;
 }
+
+/* task 3 */
+
+caption{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+table{
+    /* padding: 500px; */
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid red; */
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
+    padding: 5px 5px;
+    background-color: lightgray;
+}
